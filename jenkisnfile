@@ -1,0 +1,93 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'Maven 3.9.8'
+        jdk 'Java 1.8'
+    }
+
+    stages {
+        stage('Clone Repository') {
+            steps {
+                script {
+                    echo 'Cloning Git repository...'
+                    bat 'git --version' // Verifica si Git está instalado
+                    bat 'git clone https://github.com/RobertoRivasL/pruebas-unitarias-m4.git'
+                }
+            }
+        }
+
+        stage('Build') {
+            steps {
+                script {
+                    echo 'Building project...'
+                    dir('pruebas-unitarias-m4') {
+                        bat 'echo Building project...'
+                        bat "mvn clean compile -X"
+                    }
+                }
+            }
+        }
+
+        stage('Test') {
+            steps {
+                script {
+                    echo 'Running Unit Tests...'
+                    dir('pruebas-unitarias-m4') {
+                        bat 'echo Running tests...'
+                        bat "mvn test -X"
+                    }
+                }
+            }
+            post {
+                always {
+                    echo 'Publishing test results...'
+                    junit 'pruebas-unitarias-m4/target/surefire-reports/*.xml'
+                }
+            }
+        }
+
+        stage('Code Coverage') {
+            steps {
+                script {
+                    echo 'Generating Code Coverage Report...'
+                    dir('pruebas-unitarias-m4') {
+                        bat 'echo Generating coverage report...'
+                        bat "mvn jacoco:report -X"
+                    }
+                }
+            }
+            post {
+                always {
+                    echo 'Publishing Code Coverage report...'
+                    jacoco execPattern: 'pruebas-unitarias-m4/target/*.exec',
+                           classPattern: 'pruebas-unitarias-m4/target/classes',
+                           sourcePattern: 'pruebas-unitarias-m4/src/main/java',
+                           exclusionPattern: 'pruebas-unitarias-m4/src/test*'
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            emailext (
+                to: 'roberto.rivas.l@mail.pucv.cl',
+                subject: "SUCCESS: ${currentBuild.fullDisplayName}",
+                body: "El trabajo ${env.JOB_NAME} se completó correctamente.\nVer detalles: ${env.BUILD_URL}"
+                    )
+        }
+        failure {
+            emailext (
+                to: 'roberto.rivas.l@mail.pucv.cl',
+                subject: "FAILURE: ${currentBuild.fullDisplayName}",
+                body: "El trabajo ${env.JOB_NAME} falló.\nVer detalles: ${env.BUILD_URL}"
+            )
+        }
+
+        always {
+            echo 'Cleaning workspace...'
+            cleanWs()  // Limpiar el workspace después de enviar los reportes
+        }
+    }
+}

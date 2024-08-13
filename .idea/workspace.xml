@@ -11,23 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0eb990f1-a872-4d3d-b7f1-a8308ef2bb40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AnotherClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AllTestsSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AnotherClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkisnfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024-08-12_22-06-12.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024-08-13_10-40-14.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_1.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_1.1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +37,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RobertoRivasL&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RobertoRivasL/pruebas_unitarias&quot;,
+    &quot;accountId&quot;: &quot;ce3c5df9-4f76-4ad9-9b0e-f8554710d53d&quot;
+  }
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -83,13 +87,14 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "D:/Doc_HP_RRL/RRL/Sence/Devops/MÓDULO 4 - AUTOMATIZACIÓN DE PRUEBAS EN DEVOPS/Clase 2/Pruebas Unitarias/src/test/java",
+    "last_opened_file_path": "C:/Users/Rober/Documents/Workspace/Workspace/pruebas-unitaras-m4-ii",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Doc_HP_RRL/RRL/Sence/Devops/MÓDULO 4 - AUTOMATIZACIÓN DE PRUEBAS EN DEVOPS/Clase 2/Pruebas Unitarias/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -101,7 +106,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in pruebas_unitarias">
+  <component name="RunManager" selected="Application.App">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -302,8 +307,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in pruebas_unitarias" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.All in pruebas_unitarias" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.AllTestsSuite" />
         <item itemvalue="JUnit.All in pruebas_unitarias (1)" />
@@ -313,8 +318,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
       </set>
     </attachedChunks>
   </component>
@@ -328,6 +333,8 @@
       <updated>1723509393725</updated>
       <workItem from="1723509394899" duration="6148000" />
       <workItem from="1723558960367" duration="3415000" />
+      <workItem from="1733540608791" duration="581000" />
+      <workItem from="1733573552144" duration="3181000" />
     </task>
     <servers />
   </component>
