@@ -10,7 +10,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0eb990f1-a872-4d3d-b7f1-a8308ef2bb40" name="Changes" comment="Cambios en logger" />
+    <list default="true" id="0eb990f1-a872-4d3d-b7f1-a8308ef2bb40" name="Changes" comment="Cambios en logger">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,38 +61,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;JUnit.All in pruebas_unitarias (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in pruebas_unitarias.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AllTestsSuite.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CalculatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.AnotherClass.executor&quot;: &quot;Debug&quot;,
-    &quot;Tomcat Server.Tomcat 10.0.27.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;D:/Doc_HP_RRL/RRL/Sence/Devops/MÓDULO 4 - AUTOMATIZACIÓN DE PRUEBAS EN DEVOPS/Clase 2/Pruebas Unitarias/src/test/java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Doc_HP_RRL/RRL/Sence/Devops/MÓDULO 4 - AUTOMATIZACIÓN DE PRUEBAS EN DEVOPS/Clase 2/Pruebas Unitarias/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.All in pruebas_unitarias (1).executor": "Run",
+    "JUnit.All in pruebas_unitarias.executor": "Run",
+    "JUnit.AllTestsSuite.executor": "Run",
+    "JUnit.CalculatorTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Tomcat Server.AnotherClass.executor": "Debug",
+    "Tomcat Server.Tomcat 10.0.27.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "D:/Doc_HP_RRL/RRL/Sence/Devops/MÓDULO 4 - AUTOMATIZACIÓN DE PRUEBAS EN DEVOPS/Clase 2/Pruebas Unitarias/src/test/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Doc_HP_RRL/RRL/Sence/Devops/MÓDULO 4 - AUTOMATIZACIÓN DE PRUEBAS EN DEVOPS/Clase 2/Pruebas Unitarias/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example" />
@@ -324,7 +326,7 @@
       <workItem from="1723509394899" duration="6148000" />
       <workItem from="1723558960367" duration="5954000" />
       <workItem from="1723649454299" duration="27000" />
-      <workItem from="1724511033115" duration="353000" />
+      <workItem from="1724511033115" duration="4030000" />
     </task>
     <task id="LOCAL-00001" summary="Cambios en logger">
       <option name="closed" value="true" />
