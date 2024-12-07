@@ -1,6 +1,10 @@
 package org.example;
 
 import org.junit.jupiter.api.Test;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6bee9803b2036aed1145d25bbc5942faa5e6f4e5
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 

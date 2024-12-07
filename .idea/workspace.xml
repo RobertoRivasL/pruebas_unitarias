@@ -10,6 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="0eb990f1-a872-4d3d-b7f1-a8308ef2bb40" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/jenkisnfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
@@ -20,6 +21,10 @@
       <change beforePath="$PROJECT_DIR$/Final_1.0.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Final_1.1.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+=======
+    <list default="true" id="0eb990f1-a872-4d3d-b7f1-a8308ef2bb40" name="Changes" comment="Cambios en logger">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 6bee9803b2036aed1145d25bbc5942faa5e6f4e5
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +50,13 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
+<<<<<<< HEAD
     &quot;url&quot;: &quot;https://github.com/RobertoRivasL/pruebas_unitarias&quot;,
     &quot;accountId&quot;: &quot;ce3c5df9-4f76-4ad9-9b0e-f8554710d53d&quot;
+=======
+    &quot;url&quot;: &quot;https://github.com/RobertoRivasL/pruebas_unitarias.git&quot;,
+    &quot;accountId&quot;: &quot;39ffadff-8e7b-4e56-a0df-c0118e437fba&quot;
+>>>>>>> 6bee9803b2036aed1145d25bbc5942faa5e6f4e5
   }
 }</component>
   <component name="KubernetesApiPersistence">{}</component>
@@ -82,22 +92,36 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+<<<<<<< HEAD
+=======
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+>>>>>>> 6bee9803b2036aed1145d25bbc5942faa5e6f4e5
     "Tomcat Server.AnotherClass.executor": "Debug",
     "Tomcat Server.Tomcat 10.0.27.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "D:/Doc_HP_RRL/RRL/Sence/Devops/MÓDULO 4 - AUTOMATIZACIÓN DE PRUEBAS EN DEVOPS/Clase 2/Pruebas Unitarias/src/test/java",
+<<<<<<< HEAD
     "last_opened_file_path": "C:/Users/Rober/Documents/Workspace/Workspace/pruebas-unitaras-m4-ii",
+=======
+>>>>>>> 6bee9803b2036aed1145d25bbc5942faa5e6f4e5
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Doc_HP_RRL/RRL/Sence/Devops/MÓDULO 4 - AUTOMATIZACIÓN DE PRUEBAS EN DEVOPS/Clase 2/Pruebas Unitarias/src/main/java/org/example/Main.java",
+<<<<<<< HEAD
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
+=======
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+>>>>>>> 6bee9803b2036aed1145d25bbc5942faa5e6f4e5
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -318,8 +342,13 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+<<<<<<< HEAD
         <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
         <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+=======
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.40" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.40" />
+>>>>>>> 6bee9803b2036aed1145d25bbc5942faa5e6f4e5
       </set>
     </attachedChunks>
   </component>
@@ -332,15 +361,62 @@
       <option name="presentableId" value="Default" />
       <updated>1723509393725</updated>
       <workItem from="1723509394899" duration="6148000" />
+<<<<<<< HEAD
       <workItem from="1723558960367" duration="3415000" />
       <workItem from="1733540608791" duration="581000" />
       <workItem from="1733573552144" duration="3181000" />
     </task>
+=======
+      <workItem from="1723558960367" duration="5954000" />
+      <workItem from="1723649454299" duration="27000" />
+      <workItem from="1724511033115" duration="4030000" />
+    </task>
+    <task id="LOCAL-00001" summary="Cambios en logger">
+      <option name="closed" value="true" />
+      <created>1723562674506</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723562674506</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Cambios en logger">
+      <option name="closed" value="true" />
+      <created>1723562717227</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723562717227</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Cambios en logger">
+      <option name="closed" value="true" />
+      <created>1724511183090</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724511183090</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Cambios en logger">
+      <option name="closed" value="true" />
+      <created>1724511273247</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724511273247</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+>>>>>>> 6bee9803b2036aed1145d25bbc5942faa5e6f4e5
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cambios en logger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios en logger" />
+  </component>
+>>>>>>> 6bee9803b2036aed1145d25bbc5942faa5e6f4e5
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Pruebas_Unitarias$All_in_pruebas_unitarias.ic" NAME="All in pruebas_unitarias Coverage Results" MODIFIED="1723514253633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
